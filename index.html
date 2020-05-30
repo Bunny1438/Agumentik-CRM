@@ -19,6 +19,55 @@
     
       <style type="text/css" id="kc-css-general">.kc-off-notice{display:inline-block!important}.kc-container{max-width:1170px}</style>
       <style type="text/css" id="kc-css-render"></style>
+      <style>
+         @media (max-width: 767px) {
+            .lan{
+               margin-top: -80px;
+            }
+            .vid, .web{
+              display: none;
+            }
+            .feature-block-four{
+               margin-bottom: 30px;
+            }
+            .ft{
+              background-image: url(images/bg-work-process.png) !important;
+              background-size: cover;
+            }
+            .btl{
+               margin-right: 19px;
+            }
+            
+            .footer-bottom{
+               padding-top: 0px !important;
+            }
+            .hea{
+               padding: 0 20px !important;
+            }
+         }
+         .vid{
+            margin-top: -41px;margin-left: 43%;
+         }
+         @media (max-width: 768px) {
+            .ft{
+              background-image: url(images/bg-work-process.png) !important;
+              background-size: cover;
+            }
+             .web{
+              display: none;
+            }
+            .footer-bottom{
+               padding-top: 0px !important;
+            }
+         }
+         
+            .slide-item{
+               text-align: center;
+            }
+            .hea{
+               padding: 0 40px;
+            }
+      </style>
    </head>
    <body>
 
@@ -29,7 +78,7 @@
             <!-- Header section starts -->
             <header class="main-header header-style-two">
                <div class="header-upper">
-                  <div class="auto-container" style="padding: 0 40px;">
+                  <div class="auto-container hea" >
                      <div class="header-outer">
                         <div class="logo-box">
                            <div class="logo">
@@ -91,14 +140,14 @@
                                  <div class="layer-image wow fadeInRight animated" data-wow-delay="800ms"
                                     style="visibility: visible; animation-delay: 800ms; animation-name: fadeInRight;"></div>
                               </div>
-                              <div class="auto-container">
+                              <div class="auto-container lan">
                                  <div class="row">
                                     <div class="content-column col-xl-6">
                                        <div class="content-box">
                                           <h1 class="wow fadeInUp" data-wow-delay="800ms">Track productivity &amp; <br> keep your projects <br>on the budget</h1>
                                           <div class="text wow fadeInUp" data-wow-delay="1200ms">We combine practice of managing and analyzing marketing <br>performance to maximize its effectiveness.</div>
-                                          <div class="aaa" style=""> <a href="#"  data-animation-child="" class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05 animated fade-anim" data-animation="fade-anim"> <span class="arrow-btn pointer-large animsition-link"> Get Started</span> </a></div>
-                                          <div class="video-box" style="margin-top: -41px;margin-left: 43%;"><a href="images/video.mp4" class="lightbox-image video-link"><i class="icon fa fa-play"></i><span class="ripple"></span>Wach the Video</a></div>
+                                          <div class="aaa" > <a href="#"  data-animation-child="" class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05 animated fade-anim" data-animation="fade-anim"> <span class="arrow-btn pointer-large animsition-link"> Get Started</span> </a></div>
+                                          <div class="video-box vid" ><a href="images/video.mp4" class="lightbox-image video-link"><i class="icon fa fa-play"></i><span class="ripple"></span>Wach the Video</a></div>
                                        </div>
                                     </div>
                                     <div class="image-column col-xl-6">
@@ -150,7 +199,7 @@
                                           <div class="aaa"> <a href="login.html"  data-animation-child="" class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05 animated fade-anim" data-animation="fade-anim"> <span class="arrow-btn pointer-large animsition-link">SIGN IN</span> </a></div>
                                        </div>
                                     </div>
-                                    <div class="integrations-column">
+                                    <div class="integrations-column web">
                                        <div class="integrations-block">
                                           <div class="anim-icons"> <span class="icon circle-shape-1"></span> <span class="icon circle-shape-2"></span> <span class="icon circle-shape-3"></span> <span class="icon circle-shape-4"></span> <span class="icon circle-shape-5"></span> <span class="icon circle-shape-6"></span> <span class="icon circle-shape-7"></span></div>
                                           <div class="circle-one wow zoomIn" data-wow-delay="0ms">
@@ -681,7 +730,7 @@
             <!-- query section ends -->
             <br><br>
             <!-- footer starts -->
-            <footer class="main-footer" style="background-image: url();">
+            <footer class="main-footer ft" style="background-image: url();">
             
                <div class="auto-container">
                   <div class="widgets-section">
@@ -692,7 +741,7 @@
                                  <div class="footer-widget about-widget">
                                     <div class="footer-logo">
                                        <picture>
-                                          <img src="images/logo.png" width="250" height="75" alt="" />
+                                          <img src="images/logo.png" width="230" height="65" alt="" />
                                        </picture>
                                     </div>
             
@@ -707,7 +756,7 @@
                            </div>
                         </div>
             
-                        <div id="text-4" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text">
+                        <div id="text-4" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text cnt">
                            <div class="textwidget">
                               <div class="footer-widget links-widget">
                                  <h4 class="widget-title">Quick Link</h4>
@@ -723,7 +772,7 @@
                            </div>
                         </div>
             
-                        <div id="text-10" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text">
+                        <div id="text-10" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text ">
                            <div class="textwidget">
                               <div class="footer-widget contact-widget">
                                  <h4 class="widget-title">Contact Support</h4>
@@ -756,8 +805,8 @@
                         <div class="copyright-text">
                            <p style="color: white;">Copyright © 2019. All Rights Reserved By<a href="https://www.agumentik.com/"> Agumentik </a></p>
                         </div>
-                        <div class="bottom-links">
-                           <ul class="clearfix">
+                        <div class="bottom-links ">
+                           <ul class="clearfix btl">
                               <li><a href="#">Terms of Service </a></li>
                               <li><a href="#">Privacy Policy</a></li>
                               <li><a href="#">Legal</a></li>
