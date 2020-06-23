@@ -35,7 +35,7 @@
               background-size: cover;
             }
             .btl{
-               margin-right: 19px;
+               margin-right: 79px;
             }
             
             .footer-bottom{
@@ -43,6 +43,9 @@
             }
             .hea{
                padding: 0 20px !important;
+            }
+            .lg{
+               display: none !important;
             }
          }
          .vid{
@@ -53,12 +56,44 @@
               background-image: url(images/bg-work-process.png) !important;
               background-size: cover;
             }
-             .web{
-              display: none;
+             .web,.pp,.lg{
+              display: none !important;
             }
             .footer-bottom{
                padding-top: 0px !important;
             }
+            .btl{
+               margin-right: 79px;
+            }
+            .mni{
+               width:500px;
+               margin-left: 17%;
+            }
+
+         }
+         @media (max-width: 1024px) {
+            .btl{
+               margin-right: 79px;
+            }
+            .pp,.lg{
+              display: none !important;
+            }
+            .mni{
+               width:430px;
+               margin-top: -450px !important;
+               margin-left: 56%;
+            }
+            .integrations-block{
+               margin-left: 8%;
+            }
+            .about-section-three{
+               padding-top: 120px;
+            }
+            .banner-section-three .image{
+               margin-top: 0 !important;
+            }
+
+
          }
          
             .slide-item{
@@ -70,6 +105,9 @@
             .wy .col-lg-4,.wy .col-md-6{
                padding-right: 40px !important;
                padding-left: 40px !important;
+            }
+            .lgn{
+               display: none;
             }
       </style>
    </head>
@@ -118,6 +156,10 @@
                                     <li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page ">
                                        <a title="Contact" href="contact.html" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Contact</a>
                                     </li>
+                                    <li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page lgn">
+                                       <a title="Login" href="login.html" class="hvr-underline-from-left1" aria-expanded="false" data-scroll
+                                          data-options="easing: easeOutQuart">Sign In</a>
+                                    </li>
                                  </ul>
                               </div>
                            </nav>
@@ -146,7 +188,7 @@
                               </div>
                               <div class="auto-container lan">
                                  <div class="row">
-                                    <div class="content-column col-xl-6">
+                                    <div class="content-column col-xl-6 ">
                                        <div class="content-box">
                                           <h1 class="wow fadeInUp" data-wow-delay="800ms">Customer Relationship<br>Management System</h1>
                                           <div class="text wow fadeInUp" data-wow-delay="1200ms">We combine practice of managing and analyzing marketing <br>performance to maximize its effectiveness.</div>
@@ -154,10 +196,10 @@
                                           <div class="video-box vid" ><a href="images/video.mp4" class="lightbox-image video-link"><i class="icon fa fa-play"></i><span class="ripple"></span>Wach the Video</a></div>
                                        </div>
                                     </div>
-                                    <div class="image-column col-xl-6">
+                                    <div class="image-column col-xl-6 ">
                                        <div class="image wow slideInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
                                           <picture>
-                                             <img src="images/man_img.png" alt="Image"/>
+                                             <img src="images/man_img.png" class="mni" alt="Image"/>
                                           </picture>
                                        </div>
                                    </div>
@@ -484,27 +526,23 @@
                                     <!-- <div class="text">Minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea consequat. Duis aute irure dolor in <br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur</div> -->
                                  </div>
                                  <div class="pricing-tabs tabs-box">
-                                    <ul class="tab-buttons">
-                                       <li data-tab="#monthly" class="tab-btn active-btn">Monthly</li>
-                                       <li data-tab="#yearly" class="tab-btn">Annualy</li>
-                                    </ul>
+                                    
                                     <div class="tabs-content">
                                        <div class="tab active-tab" id="monthly">
                                           <div class="row">
                                              <div class="pricing-table col-lg-4 col-md-6 col-sm-12 animated fadeInLeft" >
                                                 <div class="inner-box">
                                                    <div class="icon-box"><span class="icon fa fa-coffee"></span></div>
-                                                   <div class="title">Starter</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>29<sub>/mo</sub></div>
+                                                   <div class="title">SILVER PACKAGE</div>
+                                                   
+                                                   <div class="price"><sup>₹</sup>2.5<sub>Lakh</sub></div>
                                                    <div class="table-content">
                                                       <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
+                                                         <li>1 copy Only</li>
+                                                         <li>5 Years</li>
+                                                         <li>No updates</li>
+                                                         <li>6 Months Technical Support</li>
+                                                         
                                                       </ul>
                                                    </div>
                                                    <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-seven">Buy This</a></div>
@@ -513,17 +551,14 @@
                                              <div class="pricing-table tagged col-lg-4 col-md-6 col-sm-12 animated fadeInUp">
                                                 <div class="inner-box">
                                                    <div class="icon-box"><span class="icon fa fa-home"></span></div>
-                                                   <div class="title">Professional</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>49<sub>/mo</sub></div>
+                                                   <div class="title">GOLD PACKAGE</div>
+                                                   <div class="price"><sup>₹</sup>7<sub>Lakh</sub></div>
                                                    <div class="table-content">
                                                       <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
+                                                         <li>2 copies</li>
+                                                         <li>10 Years</li>
+                                                         <li>2 updates</li>
+                                                         <li>1 Year Technical Support</li>
                                                       </ul>
                                                    </div>
                                                    <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-two">Buy This</a></div>
@@ -532,17 +567,14 @@
                                              <div class="pricing-table col-lg-4 col-md-6 col-sm-12 animated fadeInLeft" >
                                                 <div class="inner-box">
                                                    <div class="icon-box"><span class="icon fa fa-plane"></span></div>
-                                                   <div class="title">Enterprise</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>89<sub>/mo</sub></div>
+                                                   <div class="title">PLATINUM PACKAGE</div>
+                                                   <div class="price"><sup>₹</sup>35<sub>Lakh</sub></div>
                                                    <div class="table-content">
                                                       <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
+                                                         <li>Unlimited Copies</li>
+                                                         <li>Life Time</li>
+                                                         <li>5 updates</li>
+                                                         <li>1 Year Technical Support</li>
                                                       </ul>
                                                    </div>
                                                    <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-seven">Buy This</a></div>
@@ -550,67 +582,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="tab" id="yearly">
-                                          <div class="row">
-                                             <div class="pricing-table col-lg-4 col-md-6 col-sm-12 animated fadeInLeft" >
-                                                <div class="inner-box">
-                                                   <div class="icon-box"><span class="icon fa fa-coffee"></span></div>
-                                                   <div class="title">Starter</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>29<sub>/mo</sub></div>
-                                                   <div class="table-content">
-                                                      <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
-                                                      </ul>
-                                                   </div>
-                                                   <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-seven">Buy This</a></div>
-                                                </div>
-                                             </div>
-                                             <div class="pricing-table col-lg-4 col-md-6 col-sm-12 animated fadeInLeft" >
-                                                <div class="inner-box">
-                                                   <div class="icon-box"><span class="icon fa fa-home"></span></div>
-                                                   <div class="title">Professional</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>49<sub>/mo</sub></div>
-                                                   <div class="table-content">
-                                                      <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
-                                                      </ul>
-                                                   </div>
-                                                   <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-seven">Buy This</a></div>
-                                                </div>
-                                             </div>
-                                             <div class="pricing-table col-lg-4 col-md-6 col-sm-12 animated fadeInLeft" >
-                                                <div class="inner-box">
-                                                   <div class="icon-box"><span class="icon fa fa-plane"></span></div>
-                                                   <div class="title">Enterprise</div>
-                                                   <h6>Free Priority Support &amp; Updates</h6>
-                                                   <div class="price"><sup>$</sup>89<sub>/mo</sub></div>
-                                                   <div class="table-content">
-                                                      <ul>
-                                                         <li>CMS and source code</li>
-                                                         <li>External users support</li>
-                                                         <li>Knowledge management</li>
-                                                         <li>Helpdesk &amp; ticketing</li>
-                                                         <li>Active Directory Search</li>
-                                                         <li>Private Projects</li>
-                                                      </ul>
-                                                   </div>
-                                                   <div class="table-footer"> <a href="checkout.html" class="theme-btn btn-style-seven">Buy this</a></div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                                       
                                     </div>
                                  </div>
                               </div>
@@ -647,19 +619,19 @@
                                              </figure>
                                              <div class="text">"No matter where you go, CRM is the coolest. Thanks to Agumentik, we've just launched our 5th website and can manage all very easily. You've saved our business! Without CRM, we would have gone bankrupt by now." </div>
                                              <div class="author-info">
-                                                <h4 class="name">Hattie Bradly</h4> <span class="designation">Manager</span>
+                                                <h4 class="name">Jeet Ghosh</h4>
                                              </div>
                                           </div>
                                           <div class="content-box">
                                              <figure class="client-thumb">
                                                 <picture width="133" height="133"
                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
-                                                   <img src="images/testimonial-3.png" alt=""/>
+                                                   <img src="images/testimonial-2.png" alt=""/>
                                                 </picture>
                                              </figure>
                                              <div class="text">"Needless to say we are extremely satisfied with the results. I didn't even need training. CRM has got everything I need. I don't always praise, but when I do, it's because of CRM." </div>
                                              <div class="author-info">
-                                                <h4 class="name">Hattie Bradly</h4> <span class="designation">Manager</span>
+                                                <h4 class="name">Himanshu Singh</h4>
                                              </div>
                                           </div>
                                           <div class="content-box">
@@ -667,12 +639,12 @@
                                                 <picture width="133" height="133"
                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image">
                                                    
-                                                   <img src="images/testimonial-2.png" alt="">
+                                                   <img src="images/testimonial-3.png" alt="">
                                                 </picture>
                                              </figure>
                                              <div class="text">"Thank you for making it painless, pleasant and most of all hassle free this is because of your CRM software! If you aren't sure, always go for Agumentik. Thank you so much for your help. This is simply unbelievable.</div>
                                              <div class="author-info">
-                                                <h4 class="name">Hattie Bradly</h4> <span class="designation"></span>
+                                                <h4 class="name">Sheena Koltia</h4>
                                              </div>
                                           </div>
                                        </div>
@@ -740,7 +712,7 @@
                            </div>
                         </div>
             
-                        <div id="text-4" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text cnt">
+                        <div id="text-4" class="mrfooter col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-column footer-widget widget_text cnt">
                            <div class="textwidget">
                               <div class="footer-widget links-widget">
                                  <h4 class="widget-title">Quick Link</h4>
@@ -756,7 +728,7 @@
                            </div>
                         </div>
             
-                        <div id="text-10" class="mrfooter col-lg-4 col-sm-12 col-xs-12 footer-column footer-widget widget_text ">
+                        <div id="text-10" class="mrfooter col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-column footer-widget widget_text ">
                            <div class="textwidget">
                               <div class="footer-widget contact-widget">
                                  <h4 class="widget-title">Contact Support</h4>
@@ -792,8 +764,8 @@
                         <div class="bottom-links lks">
                            <ul class="clearfix btl">
                               <li><a href="#">Terms of Service </a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                              <li><a href="#">Legal</a></li>
+                              <li><a href="#" class="pp">Privacy Policy</a></li>
+                              <li><a href="#" class="lg">Legal</a></li>
                            </ul>
                         </div>
                      </div>
